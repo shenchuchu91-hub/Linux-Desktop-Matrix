@@ -1,0 +1,29 @@
+# ==============================================================================
+#  🌸 GNOME 精选扩展列表与安装指南 (extensions.txt)
+#  项目: Linux-Desktop-Matrix
+#  维护: shenchuchu91-hub
+# ==============================================================================
+
+[精选官方/社区扩展清单]
+1. dash-to-dock@micxgx.gmail.com
+   - 作用: 将原生活动屏幕 Dash 转为现代化 Dock 栏，支持自动隐藏与指示器
+2. blur-my-shell@aunetx
+   - 作用: 为面板、顶栏、锁屏与应用视口注入高斯模糊效果
+3. appindicatorsupport@rgcjonas.gmail.com
+   - 作用: 提供托盘图标支持 (如 Steam, Fcitx5, QQ, 微信, Telegram)
+4. vitals@corecoding.com
+   - 作用: 顶栏硬件监控 (CPU 温度/负载、内存占用、GPU 显存)
+5. just-perfection-desktop@just-perfection
+   - 作用: 全局微调 GNOME Shell 行为，去除多余动画或精简视觉元素
+
+[快速安装方法]
+方法一 (推荐图形化):
+使用 Flatpak 安装 Extension Manager (扩展管理器):
+flatpak install flathub com.mattjakeman.ExtensionManager
+
+方法二 (CLI 命令行快速安装):
+pipx install gnome-extensions-cli
+gext install dash-to-dock@micxgx.gmail.com
+gext install blur-my-shell@aunetx
+gext install appindicatorsupport@rgcjonas.gmail.com
+gext install vitals@corecoding.com

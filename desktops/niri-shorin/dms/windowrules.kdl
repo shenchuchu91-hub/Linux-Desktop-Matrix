@@ -1,0 +1,19 @@
+// DMS Window Rules - Managed by Dux Shell
+// Do not edit manually - changes may be overwritten
+
+// @id=dms-floating-windows @name=DMS Floating Windows
+window-rule {
+    match app-id="^(dev\\.duxlabs\\.shell|com\\.danklinux\\.dms)$"
+    open-floating true
+}
+
+// @id=wr_1794049618868301337 @name=VirtualBox Manager
+window-rule {
+    match app-id="^VirtualBox Manager$"
+}
+
+// @id=dms-window-opaque @name=DMS Window Opaque
+window-rule {
+    match app-id="^(dev\\.duxlabs\\.shell|com\\.danklinux\\.dms)$"
+    opacity 1.00
+}

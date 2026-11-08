@@ -1,0 +1,50 @@
+# ==============================================================================
+#  🏛️ Arch Linux 桌面环境与窗口管理器依赖清单 (Arch Linux Packages)
+#  项目: Linux-Desktop-Matrix
+#  维护: shenchuchu91-hub
+# ==============================================================================
+
+# --- Niri Compositor 相关依赖 (Official & AUR) ---
+# niri: 官方仓库已收录 (pacman -S niri)
+niri
+xwayland-satellite-git
+fuzzel
+waybar
+mako
+swayidle
+swaylock
+swww
+satty
+wl-clipboard
+cliphist
+brightnessctl
+pavucontrol
+xdg-desktop-portal-gnome
+
+# --- Hyprland 相关依赖 ---
+hyprland
+hyprlock
+hypridle
+hyprpaper
+xdg-desktop-portal-hyprland
+polkit-gnome
+qt5-wayland
+qt6-wayland
+
+# --- GNOME 相关依赖 ---
+gnome-shell
+gnome-control-center
+gnome-tweaks
+nautilus
+dconf-editor
+
+# --- 终端与通用字体套件 ---
+foot
+kitty
+fish
+starship
+yazi
+ttf-jetbrains-mono-nerd
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji

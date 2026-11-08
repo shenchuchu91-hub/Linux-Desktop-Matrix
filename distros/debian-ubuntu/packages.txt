@@ -1,0 +1,14 @@
+# Debian / Ubuntu 推荐安装清单 (APT)
+# 注意：Niri 与 Hyprland 建议通过源码编译或第三方 PPA/Cargo 安装最新版
+
+gnome-shell
+gnome-tweaks
+waybar
+foot
+kitty
+fish
+fonts-noto-cjk
+fonts-jetbrains-mono
+wl-clipboard
+brightnessctl
+pavucontrol

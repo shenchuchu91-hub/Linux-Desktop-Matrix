@@ -1,0 +1,15 @@
+# openSUSE Tumbleweed 推荐安装清单 (Zypper)
+# zypper in ...
+
+hyprland
+waybar
+fuzzel
+foot
+kitty
+fish
+starship
+noto-sans-cjk-fonts
+jetbrains-mono-fonts
+wl-clipboard
+brightnessctl
+pavucontrol
