@@ -1,0 +1,23 @@
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.backup*
+*~
+
+# Shell runtime state
+fish_variables
+fish_history
+.bash_history
+.zsh_history
+
+# Cache directories
+.cache/
+
+# Credentials and sensitive tokens
+id_rsa*
+id_ed25519*
+*.key
+*.pem
+*.token
+*.env
