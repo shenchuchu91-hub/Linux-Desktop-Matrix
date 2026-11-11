@@ -39,6 +39,7 @@
 - [🛡️ 安全备份、执行快照与一键回滚 (Safety & Rollback)](#️-安全备份执行快照与一键回滚-safety--rollback)
 - [🌸 模块化仓库结构 (Repository Structure)](#-模块化仓库结构-repository-structure)
 - [📜 致敬、免责声明与许可证 (Credits & Disclaimer)](#-致敬免责声明与许可证-credits--disclaimer)
+  - [致谢与第三方来源](#致谢与第三方来源)
 
 ---
 
@@ -229,7 +230,8 @@ cd Linux-Desktop-Matrix
 
 ```text
 Linux-Desktop-Matrix/
-├── LICENSE                      # MIT 开源许可证
+├── LICENSE                      # MIT 开源许可证（仅覆盖原创部分，见说明）
+├── THIRD_PARTY_NOTICES.md       # 第三方来源、路径与许可证清单
 ├── README.md                    # 本全景工程架构与使用指南
 ├── setup.sh                     # 终端交互式选择器与部署总控
 ├── assets/
@@ -262,10 +264,19 @@ Linux-Desktop-Matrix/
 - **Hyprland & Vaxry**：感谢 Hyprland 社区对现代 Wayland 流体动态美学的开拓；
 - **NixOS 社区**：感谢不可变声明式系统为现代 Linux 架构带来的启迪。
 
+### 致谢与第三方来源
+
+本仓库部分配置整理或改编自以下上游，完整路径与许可证见 [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md)：
+
+- [@SHORiN-KiWATA](https://github.com/SHORiN-KiWATA)：[shorin-arch-setup](https://github.com/SHORiN-KiWATA/shorin-arch-setup)（AGPL-3.0）、[shorin-niri](https://github.com/SHORiN-KiWATA/shorin-niri)、[shorin-dms-hyprniri](https://github.com/SHORiN-KiWATA/shorin-dms-hyprniri)
+- [trygveaa/kitty-kitten-search](https://github.com/trygveaa/kitty-kitten-search)（`desktops/common-shell/kitty/search.py`，GPL-3.0）
+
+来自 `shorin-niri`、`shorin-dms-hyprniri` 的内容上游尚未声明许可证，已向作者致谢并暂予保留；如需移除请联系维护者。
+
 ### 安全提示与免责声明 (Disclaimer)
 本项目涉及底层桌面环境与用户配置目录的管理。尽管选择器内置了完备的时间戳备份与回滚机制，但在生产机器上操作前，仍建议用户阅读本账号通用准则：
 - 🛡️ **[全局免责声明与安全守则 (Disclaimer)](https://github.com/shenchuchu91-hub/disclaimer)**
 
 ### 许可证 (License)
-本项目采用 [MIT License](./LICENSE) 协议开源。
+[MIT License](./LICENSE) **仅适用于本仓库的原创部分**。第三方文件继续沿用各自原有许可证，详见 [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md)。
 </div>

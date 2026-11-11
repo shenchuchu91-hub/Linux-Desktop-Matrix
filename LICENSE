@@ -19,3 +19,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+------------------------------------------------------------------------------
+说明（许可证范围）
+
+上述 MIT License 仅适用于本仓库的原创内容。
+第三方文件、主题与脚本继续沿用各自原有许可证，不受 MIT 覆盖。
+完整来源、路径与许可证清单见仓库根目录的 THIRD_PARTY_NOTICES.md。
+------------------------------------------------------------------------------
