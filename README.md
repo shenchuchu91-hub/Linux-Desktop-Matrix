@@ -1,3 +1,9 @@
+<div align="center">
+  <img src="./assets/banner.svg" width="100%" alt="Monochrome Banner"/>
+</div>
+
+---
+
 # linux-desktop-matrix
 
 cross-distro desktop environments and tiling compositor reference.
@@ -257,4 +263,10 @@ Linux-Desktop-Matrix/
 
 ### 许可证 (License)
 [MIT License](./LICENSE) **仅适用于本仓库的原创部分**。第三方文件继续沿用各自原有许可证，详见 [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md)。
+</div>
+
+---
+
+<div align="center">
+  <sub>雨声未停 · 保持冷清 · 独行其道</sub>
 </div>
