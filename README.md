@@ -1,8 +1,4 @@
-<p align="center">
-  <img src="./assets/banner.jpg" width="100%" alt="" />
-</p>
-
-<p align="center"><sub>雨还在下</sub></p>
+<img alt="Linux-Desktop-Matrix · 雨还在下" src="./assets/header.svg" width="100%" />
 
 # 桌面环境备忘
 
@@ -121,7 +117,7 @@ Shorin 那套从 niri 25.11 起拆成 `layout.kdl`、`animations.kdl`、`blur.kd
 ```text
 Linux-Desktop-Matrix/
 ├── setup.sh
-├── assets/banner.jpg
+├── assets/
 ├── distros/
 │   ├── arch/packages.txt
 │   ├── nixos/
@@ -150,3 +146,5 @@ niri 本身是 [YaLTeR/niri](https://github.com/YaLTeR/niri)。Hyprland 是 Vaxr
 [MIT](./LICENSE) 只覆盖这个仓库里我自己写的部分。动的是 `~/.config`，生产机器上先看脚本列出来的备份路径。
 
 <p align="center"><sub>雨还在下</sub></p>
+
+<img alt="雨还在下 · 屏幕常亮" src="./assets/footer.svg" width="100%" />
