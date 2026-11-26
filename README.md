@@ -1,14 +1,12 @@
-<div align="center">
-  <img src="./assets/banner.svg" width="100%" alt="Monochrome Banner"/>
-</div>
+<p align="center">
+  <img src="./assets/banner.jpg" width="100%" alt="" />
+</p>
 
----
+<p align="center"><sub>雨还在下</sub></p>
 
-# linux-desktop-matrix
+# 桌面环境备忘
 
-cross-distro desktop environments and tiling compositor reference.
-
----
+niri、Hyprland、GNOME，以及换发行版时包怎么装。脚本会先问你要哪一套，改之前带时间戳备份。
 
 ## 目录全景 (Table of Contents)
 
@@ -34,10 +32,10 @@ cross-distro desktop environments and tiling compositor reference.
 1. **与特定发行版严重绑定**：许多仓库仅适用于单一发行版，换到其他系统（尤其是如 NixOS 这类不可变系统或 Fedora/Debian）时配置往往失效或难以复现；
 2. **缺乏明确的选择权与安全保障**：传统的配置仓库往往通过粗暴的覆盖脚本，强行替换用户的整个 `~/.config`，缺乏明确的交互提示与无损回滚机制。
 
-作者在深度实践 **Arch Linux** 与 **NixOS** 系统的过程中，总结提炼出这一套 **`Linux-Desktop-Matrix`**：
-- **全面对标所有主流 Linux 发行版**：涵盖 Arch Linux / Nyarch、NixOS、Fedora、Debian / Ubuntu、openSUSE；
-- **全景整合 Wayland 现代桌面方案**：汇聚 **Niri**（提供大老师定制版与官方纯净版双轨）、**DMS**（Dank Miau Shell）、**Hyprland** 以及 **GNOME** 现代工作流；
-- **终端交互明确，自主决定**：运行安装脚本时，系统会自动探测环境并以极度清晰、彩色的交互终端向用户询问“想部署哪个”，所有改动均带有时间戳备份与可逆回滚脚本。
+这里按自己在 Arch 和 NixOS 上用过的桌面整理：
+- 发行版覆盖 Arch / Nyarch、NixOS、Fedora、Debian / Ubuntu、openSUSE；
+- 桌面有 niri（定制版和官方原版）、DMS、Hyprland、GNOME；
+- 跑脚本时会问你要哪一套。改动带时间戳备份，可以退回去。
 
 ---
 
@@ -219,7 +217,7 @@ Linux-Desktop-Matrix/
 ├── README.md # 本全景工程架构与使用指南
 ├── setup.sh # 终端交互式选择器与部署总控
 ├── assets/
-│ └── banner.svg # 高清动态矢量美学横幅
+│ └── banner.jpg # 雨夜横幅
 ├── distros/ # 针对各主流发行版的专门依赖清单与指南
 │ ├── arch/packages.txt # Arch Linux / Nyarch 核心包
 │ ├── nixos/ # NixOS 声明式 Flake 与 Home-Manager 模块
@@ -268,5 +266,5 @@ Linux-Desktop-Matrix/
 ---
 
 <div align="center">
-  <sub>雨声未停 · 保持冷清 · 独行其道</sub>
+  <sub>雨还在下</sub>
 </div>
